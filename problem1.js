@@ -8,19 +8,13 @@ var arraySpace = 0;
 for(num = 999; num>0; num--)
 {
 
-  if (num % 3 === 0)
-  {
-   numArray[arraySpace]= num;
-    arraySpace++;
-  }
-  else if (num % 5 === 0)
+  if (num % 3 === 0 || num % 5 === 0)
   {
     numArray[arraySpace] = num;
     arraySpace++;
    }
   
 }
-console.log(numArray);
 
 var sumMultiples = 0;
 
